@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clavier Virtuel</title>
+    <link rel="stylesheet" href="keyboard.css">
+    <!-- <link rel="stylesheet" href="keyborad-night.css"> -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+
+    <diV class="en-tete">
+        <header>
+            <h2 class="titre">Mon clavier virtuel</h2>
+        </header>
+    </diV>
+    <!-- <p> <kbd>1</kbd>  <kbd>2</kbd>  <kbd>3</kbd> <kbd>4</kbd> <kbd>5</kbd> <kbd>6</kbd> <kbd>7</kbd> <kbd>8</kbd> <kbd>9</kbd> <kbd>0</kbd> </p> -->
+    <textarea name="affiche" id="affiche" cols="30" rows="10"></textarea>
+
+    <!-- le div qui contient tout le clavier -->
+    <div class="keyboard">
+
+        <button id="darkMode"></button>
+
+        <div class="boutons">
+            <button type="button" class="bouton">1</button>
+            <button type="button" class="bouton">2</button>
+            <button type="button" class="bouton">3</button>
+            <button type="button" class="bouton">4</button>
+            <button type="button" class="bouton">5</button>
+            <button type="button" class="bouton">6</button>
+            <button type="button" class="bouton">7</button>
+            <button type="button" class="bouton">8</button>
+            <button type="button" class="bouton">9</button>
+            <button type="button" class="bouton">0</button>
+            <button type="button" class="bouton bouton-fermer">
+                <span class="material-icons">keyboard_backspace </span>
+            </button>
+            <br>
+
+
+            <!-- <button type="button" class="bouton tabulation">
+                <span class="material-icons"> sync_alt </span>
+            </button> -->
+            <button type="button" class="bouton">Q</button>
+            <button type="button" class="bouton">W</button>
+            <button type="button" class="bouton">E</button>
+            <button type="button" class="bouton">R</button>
+            <button type="button" class="bouton">T</button>
+            <button type="button" class="bouton">Y</button>
+            <button type="button" class="bouton">U</button>
+            <button type="button" class="bouton">I</button>
+            <button type="button" class="bouton">O</button>
+            <button type="button" class="bouton">P</button>
+            <br>
+            <button type="button" class="bouton bouton-verouillage-majuscules">
+                <span class="material-icons">lock</span>
+            </button>
+            <button type="button" class="bouton">A</button>
+            <button type="button" class="bouton">S</button>
+            <button type="button" class="bouton">D</button>
+            <button type="button" class="bouton">F</button>
+            <button type="button" class="bouton">G</button>
+            <button type="button" class="bouton">H</button>
+            <button type="button" class="bouton">J</button>
+            <button type="button" class="bouton">K</button>
+            <button type="button" class="bouton">L</button>
+            <button type="button" class="bouton bouton-entrer">
+                <span class="material-icons">subdirectory_arrow_left</span>
+            </button>
+            <br>
+            <button type="button" class="bouton bouton-shift">
+                <span class="material-icons">arrow_upward</span>
+            </button>
+            <button type="button" class="bouton">Z</button>
+            <button type="button" class="bouton">X</button>
+            <button type="button" class="bouton">C</button>
+            <button type="button" class="bouton">V</button>
+            <button type="button" class="bouton">B</button>
+            <button type="button" class="bouton">N</button>
+            <button type="button" class="bouton">M</button>
+            <button type="button" class="bouton">,</button>
+            <button type="button" class="bouton">.</button>
+            <button type="button" class="bouton">?</button>
+            <br>
+            <button type="button" class="bouton bouton-espace">
+                <i class="material-icons">space_bar</i>
+            </button>
+
+        </div>
+    </div>
+    <!-- jquery -->
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <!-- mon js -->
+    <script src="keyboard.js"></script>
+
+
+
+
+</body>
+
+</html>
