@@ -1,0 +1,123 @@
+
+textarea{
+    width: 50vw;
+    height: 100px;
+    margin-left: 25%;
+    margin-top: 30px;
+    position: absolute;
+}
+
+.keyboard{
+    position: fixed;
+    left: 0; 
+    bottom: 0;
+    width: 100%;
+    padding: 5px 0;
+    background: salmon;
+    box-shadow: 0 0 50px;
+    user-select: none;    
+    transition: bottom 0.4s;
+    height: 50%;
+
+}
+
+.keyboard--hidden{
+    bottom: -100%;
+}
+
+.boutons{
+    text-align: center;
+    width: 100%;
+    height: 40%;
+    margin-top: 30px;
+   
+    
+    
+}
+
+.bouton{
+    height: 40px;
+    width: 4%;
+    max-width: 90px;
+    margin: 2px;
+    border-radius: 4px;
+    border: none;
+    background:rgb(250, 33, 9);
+    color: white;
+    display: inline-flex;  
+    align-items: center;
+    justify-content: center; 
+    outline: none;
+    cursor: pointer;
+    vertical-align: top;
+    /* padding: 0; */
+    -webkit-tap-highlight-color: transparent;
+    position: relative;
+   
+  
+    
+
+}
+
+.bouton:active{
+    background:rgb(250, 33, 9);
+}
+
+.bouton-fermer{
+    width: 6%;
+}
+
+.bouton-espace{
+    width: 24%;
+    max-width: 500px;
+}
+
+.bouton-verouillage-majuscules{
+
+    width:7.4%;
+    max-width: 300px;
+
+}
+
+.bouton-entrer{
+    width: 8% ;
+}
+
+.bouton-shift{
+    width: 11%;
+    
+}
+
+.en-tete{
+    border-radius: 30px;
+    width: 100%;
+    height: 50px;
+    background: salmon;
+    /* margin-top: 10px; */
+}
+
+.titre{
+    text-align: center;
+    padding-top: 10px;
+    color: white;
+    margin-top: 5px;
+   
+}
+
+.modeNuit{
+    width: 30px;
+    height: 20px;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+.dark {
+    background-color: #112F41;
+    color: #ffffff;
+  }
+  
+  .dark button {
+    background: #144098;
+    color: #fff;
+  }
+  
